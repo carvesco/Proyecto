@@ -9,18 +9,18 @@ import javax.swing.JButton;
  */
 public class BarcosEnemigos {
 
-    Juego juego;
-    JButton BotonMapa[];
-    JButton BotonBase[];
-    boolean BarcosEnemigos[];
-    Color pred;
-    JButton MemoricBoton[] = new JButton[30];
-    JButton MemoricBase[];
-    JButton ALREDEDOR[];
-    boolean DETENER = false;
-    JButton barco[];//120
+    public Juego juego;
+    public JButton BotonMapa[];
+    public JButton BotonBase[];
+    public boolean BarcosEnemigos[];
+    public Color pred;
+    public JButton MemoricBoton[] = new JButton[30];
+    public JButton MemoricBase[];
+    public JButton ALREDEDOR[];
+    public boolean DETENER = false;
+    public JButton barco[];//120
     public Cronometro cronometro;
-    ControlMovimiento controlmovimiento;
+    public ControlMovimiento controlmovimiento;
 
     public BarcosEnemigos(Juego juego, JButton BotonMapa[], JButton BotonBase[], JButton MemoricBase[],ControlMovimiento controlmovimiento) {
         this.juego = juego;

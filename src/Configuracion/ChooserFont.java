@@ -9,8 +9,8 @@ import java.awt.event.ActionEvent;
  */
 public class ChooserFont {
     
-    FontChooser fontchooser;
-    Configuracion configuracion;
+    public FontChooser fontchooser;
+    public Configuracion configuracion;
     
     public ChooserFont(FontChooser fontchooser,Configuracion configuracion){
         this.fontchooser=fontchooser;

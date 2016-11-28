@@ -14,20 +14,20 @@ import javax.swing.JButton;
  */
 public class ColorJuego {
 
-    ColorGeneral colorgeneral;
-    Configuracion configuracion;
-    CentralConfiguracion centralconfiguracion;
-    Juego juego;
-    JButton BotonMuestra[];
-    JButton Memoric[];
-    String titulo;
-    Color chooser;
-    int red, green, blue, alpha;
-    Archivo archivo;
-    String concatenar;
-    String temp[];
-    int datocolor[][];
-    String codigocolor[];
+    public ColorGeneral colorgeneral;
+    public Configuracion configuracion;
+    public CentralConfiguracion centralconfiguracion;
+    public Juego juego;
+    public JButton BotonMuestra[];
+    public JButton Memoric[];
+    public String titulo;
+    public Color chooser;
+    public int red, green, blue, alpha;
+    public Archivo archivo;
+    public String concatenar;
+    public String temp[];
+    public int datocolor[][];
+    public String codigocolor[];
 
     public ColorJuego(ColorGeneral colorgeneral, JButton BotonMuestra[], String titulo, JButton Memoric[], Configuracion configuracion, Juego juego, CentralConfiguracion centralconfiguracion) {
         this.colorgeneral = colorgeneral;

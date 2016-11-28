@@ -13,12 +13,12 @@ import javax.swing.JButton;
  */
 public class CentralConfiguracion {
     
-    Configuracion configuracion;
-    Juego juego;
-    JButton BotonMuestra[];
-    JButton Memoric[];
-    Archivo archivo;
-    String codigocolor[];
+    public Configuracion configuracion;
+    public Juego juego;
+    public JButton BotonMuestra[];
+    public JButton Memoric[];
+    public Archivo archivo;
+    public String codigocolor[];
     
     public CentralConfiguracion(Configuracion configuracion, JButton BotonMuestra[], JButton Memoric[],Juego juego){
         this.configuracion=configuracion;

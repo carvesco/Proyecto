@@ -14,11 +14,11 @@ import javax.swing.table.TableRowSorter;
  */
 public class Puntajes {
     
-    Clasificacion clasificacion;    
-    DefaultTableModel tabla;
-    LinkedList lista;
-    Archivo archivo;
-    StringTokenizer token;
+    public Clasificacion clasificacion;    
+    public DefaultTableModel tabla;
+    public LinkedList lista;
+    public Archivo archivo;
+    public StringTokenizer token;
     
     public Puntajes(Clasificacion clasificacion){
         this.clasificacion=clasificacion;

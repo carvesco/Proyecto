@@ -1,23 +1,19 @@
 package Clases;
 
-import java.applet.AudioClip;
 import java.io.*;
 import javax.swing.JOptionPane;
-import javazoom.jl.decoder.JavaLayerException;
-import javazoom.jl.player.Player;
-import sun.audio.*;
 /**
  *
  * @author Freddy Nicolay Vanegas
  */
 public class Archivo {
 
-    File archivo;
-    FileReader LeerArchivo;
-    FileWriter EscribirArchivo;
-    BufferedReader LeerBufer;
-    BufferedWriter EscribirBufer;
-    PrintWriter Imprimir;
+    public File archivo;
+    public FileReader LeerArchivo;
+    public FileWriter EscribirArchivo;
+    public BufferedReader LeerBufer;
+    public BufferedWriter EscribirBufer;
+    public PrintWriter Imprimir;
 
     public void concatenar(String ruta, String texto) {
         String temp = leer(ruta);

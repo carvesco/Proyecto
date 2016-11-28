@@ -8,14 +8,12 @@ import java.awt.Point;
 import java.awt.Window;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
-import Clases.Jugar;
 /*
 *
 *@author Freddy Vanegas
@@ -23,10 +21,10 @@ import Clases.Jugar;
 public class ControlJuego implements ActionListener {
 
     private Juego juego;
-    JButton BotonBase[];
-    JButton BotonMapa[];
-    JButton BotonMuestra[];
-    ControlMovimiento cm;
+    public JButton BotonBase[];
+    public JButton BotonMapa[];
+    public JButton BotonMuestra[];
+    public ControlMovimiento cm;
     private String[] args;
     
     int x,y;

@@ -15,22 +15,22 @@ import javax.swing.JOptionPane;
 public class ControlMovimiento {
     
     private Juego juego;
-    Archivo archivo;
+    public Archivo archivo;
     
-    JButton BotonMapa[];
-    JButton BotonBase[];
-    JButton BotonMuestra[];
-    JButton BotonSelecionado[];
-    JButton MemoricBoton[]=new JButton[30];
+    public JButton BotonMapa[];
+    public JButton BotonBase[];
+    public JButton BotonMuestra[];
+    public JButton BotonSelecionado[];
+    public JButton MemoricBoton[]=new JButton[30];
     
-    Color pred;
-    Color colorenemigo;
-    boolean MisBarcos[];
-    boolean CLICK=false;
-    boolean DETENER=false;
+    public Color pred;
+    public Color colorenemigo;
+    public boolean MisBarcos[];
+    public boolean CLICK=false;
+    public boolean DETENER=false;
     
-    String temp[]=new String[8];
-    int datocolor[][]=new int [8][4];
+    public String temp[]=new String[8];
+    public int datocolor[][]=new int [8][4];
                     
     public ControlMovimiento(Juego juego, JButton botonbase[], JButton botonmapa[], JButton BotonMuestra[]){
         this.juego=juego;

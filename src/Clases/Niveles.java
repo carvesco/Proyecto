@@ -8,17 +8,17 @@ import javax.swing.JButton;
  */
 public class Niveles {
     
-    JButton MemoricBase[];
-    JButton Tablero[];
-    StringTokenizer token;
-    Archivo archivo;
-    String controles[];
-    int tamaño=0;
-    JButton Tiros[];
+    public JButton MemoricBase[];
+    public JButton Tablero[];
+    public StringTokenizer token;
+    public Archivo archivo;
+    public String controles[];
+    public int tamaño=0;
+    public JButton Tiros[];
     
-    String Nivel;
-    JButton NivelMedio[];
-    JButton NivelDificil[];
+    public String Nivel;
+    public JButton NivelMedio[];
+    public JButton NivelDificil[];
     
     public Niveles(JButton MemoricBase[], JButton Tablero[]){
         this.MemoricBase = MemoricBase;
@@ -112,7 +112,7 @@ public class Niveles {
         return datofinal;
     }
     
-    private JButton [] Partir_A(int n){
+    private JButton[] Partir_A(int n){
         JButton dato_a[] = new JButton[n];
         for(int i=0;i<n;i++){
             dato_a[i] = Tiros[i];
@@ -120,7 +120,7 @@ public class Niveles {
         return dato_a;
     }
     
-    private JButton []Partir_B(int n,int x){
+    private JButton[] Partir_B(int n,int x){
         JButton dato_b[] = new JButton[x];
         for(int i=0;i<x;i++){
             dato_b[i]= Tiros[(i+n)];
@@ -138,7 +138,7 @@ public class Niveles {
         return controles[0];
     }   
     
-    public JButton []desordenar_Barco(JButton arregloInt[]){        
+    public JButton[] desordenar_Barco(JButton arregloInt[]){        
         int lista_elem = arregloInt.length;        
         int [] indice= new int [lista_elem]; 
         JButton desordenado[]= new JButton[lista_elem]; 

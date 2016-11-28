@@ -22,13 +22,13 @@ public final class Efecto {
     private int i=0,j=0;
     private int tt=0;
     
-    String temp[];
-    int datocolor[][];
+    public String temp[];
+    public int datocolor[][];
     
-    Archivo archivo;
+    public Archivo archivo;
     
-    Color colores[]={Color.RED,Color.BLUE,Color.GREEN,Color.YELLOW,Color.WHITE};
-    Color pred;
+    public Color colores[]={Color.RED,Color.BLUE,Color.GREEN,Color.YELLOW,Color.WHITE};
+    public Color pred;
         
     public Efecto(Juego juego){
         this.juego=juego;
@@ -43,7 +43,7 @@ public final class Efecto {
         objTimer.start();  
     }
     
-    private class ClaseTimer implements ActionListener{
+    public class ClaseTimer implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
             if(j>4){
