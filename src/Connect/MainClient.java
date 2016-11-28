@@ -14,7 +14,6 @@ public class MainClient {
     
     public void setServer(JLabel Con, String Serv){
         System.out.println("Client connected...");
-        //String Serv = JOptionPane.showInputDialog(null, "Ingrese la ip del servidor", "Conectar", JOptionPane.INFORMATION_MESSAGE);
         Server = Serv;
         if(sendData("connect"))
             Con.setText("Conectado con la ip: " + Server);
