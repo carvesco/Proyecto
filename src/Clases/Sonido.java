@@ -27,7 +27,7 @@ public class Sonido {
         AudioStream audioStream = new AudioStream(in);
         AudioPlayer.player.start(audioStream);
         if("soundtrack.wav".equals(pista)){
-        Thread.sleep(219000);   
+        Thread.sleep(21900);   
         audioStream.reset();
         }
         

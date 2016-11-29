@@ -10,8 +10,6 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 *@author Freddy Vanegas
 */
 public class Inicio {
-    
-
 
     public static void main(String[] args) throws FileNotFoundException, UnsupportedAudioFileException, IOException, InterruptedException {
         Juego vista = new Juego();
@@ -22,6 +20,5 @@ public class Inicio {
         sonido.Sonido("gametrack.wav");
         vista.setVisible(true);
     }
-
 
 }

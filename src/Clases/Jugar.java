@@ -116,21 +116,21 @@ public class Jugar {
     }
 
     private void BotonMapaActionPerformed(java.awt.event.ActionEvent evt) throws IOException, FileNotFoundException, InterruptedException {
-
+    for(int i = 0; i < turnosplayer; i++){    
         try {
-            if (!Terminar) {
-                for(int i = 0; i < turnosplayer; i++){
+            //if (!Terminar) {
+                
                 int x = juego.jPanel3.getMousePosition().getLocation().x;
                 int y = juego.jPanel3.getMousePosition().getLocation().y;
                 //if (MiTurno) {
                     VerificarBarcoUndido(x, y);
                     ComputerBarcoUndido();
                 //}
-            }
-            }
-            
+            //}
+            //}
         } catch (NullPointerException e) {
         }
+    }
         MiTurno = false;
     }
 
@@ -415,8 +415,9 @@ public class Jugar {
                 cptBarco1[4].setBackground(new Color(datocolor[1][3], datocolor[1][2], datocolor[1][1], datocolor[1][0]));
                 computerbarcoundido[0] = true;
                 this.sonido.Sonido("crash.wav");
-                turnospc--;
-                
+                if(turnospc > 1){
+                turnospc--;   
+                }
             }
         }
         if (!computerbarcoundido[1]) {
@@ -427,7 +428,9 @@ public class Jugar {
                 cptBarco2[3].setBackground(new Color(datocolor[1][3], datocolor[1][2], datocolor[1][1], datocolor[1][0]));
                 computerbarcoundido[1] = true;
                 this.sonido.Sonido("crash.wav");
-                turnospc--;
+                if(turnospc > 1){
+                turnospc--;   
+                }            
             }
         }
         if (!computerbarcoundido[2]) {
@@ -437,7 +440,9 @@ public class Jugar {
                 cptBarco3[2].setBackground(new Color(datocolor[1][3], datocolor[1][2], datocolor[1][1], datocolor[1][0]));
                 computerbarcoundido[2] = true;
                 this.sonido.Sonido("crash.wav");
-                turnospc--;
+                if(turnospc > 1){
+                turnospc--;   
+                }  
             }
         }
         if (!computerbarcoundido[3]) {
@@ -446,7 +451,9 @@ public class Jugar {
                 cptBarco4[1].setBackground(new Color(datocolor[1][3], datocolor[1][2], datocolor[1][1], datocolor[1][0]));
                 computerbarcoundido[3] = true;
                 this.sonido.Sonido("crash.wav");
-                turnospc--;
+                if(turnospc > 1){
+                turnospc--;   
+                }  
             }
         }
         if (!computerbarcoundido[4]) {
@@ -458,7 +465,9 @@ public class Jugar {
                 cptBarco5[4].setBackground(new Color(datocolor[1][3], datocolor[1][2], datocolor[1][1], datocolor[1][0]));
                 computerbarcoundido[4] = true;
                 this.sonido.Sonido("crash.wav");
-                turnospc--;
+                if(turnospc > 1){
+                turnospc--;   
+                }   
             }
         }
         if (!computerbarcoundido[5]) {
@@ -469,7 +478,9 @@ public class Jugar {
                 cptBarco6[3].setBackground(new Color(datocolor[1][3], datocolor[1][2], datocolor[1][1], datocolor[1][0]));
                 computerbarcoundido[5] = true;
                 this.sonido.Sonido("crash.wav");
-                turnospc--;
+                if(turnospc > 1){
+                turnospc--;   
+                }  
             }
         }
         if (!computerbarcoundido[6]) {
@@ -479,7 +490,9 @@ public class Jugar {
                 cptBarco7[2].setBackground(new Color(datocolor[1][3], datocolor[1][2], datocolor[1][1], datocolor[1][0]));
                 computerbarcoundido[6] = true;
                 this.sonido.Sonido("crash.wav");
-                turnospc--;
+                if(turnospc > 1){
+                turnospc--;   
+                }  
             }
         }
         if (!computerbarcoundido[7]) {
@@ -488,7 +501,9 @@ public class Jugar {
                 cptBarco8[1].setBackground(new Color(datocolor[1][3], datocolor[1][2], datocolor[1][1], datocolor[1][0]));
                 computerbarcoundido[7] = true;
                 this.sonido.Sonido("crash.wav");
-                turnospc--;
+                if(turnospc > 1){
+                turnospc--;   
+                }  
             }
         }
         if (!computerbarcoundido[8]) {
@@ -496,7 +511,9 @@ public class Jugar {
                 cptBarco9[0].setBackground(new Color(datocolor[1][3], datocolor[1][2], datocolor[1][1], datocolor[1][0]));
                 computerbarcoundido[8] = true;
                 this.sonido.Sonido("crash.wav");
-                turnospc--;
+                if(turnospc > 1){
+                turnospc--;   
+                }  
             }
         }
         if (!computerbarcoundido[9]) {
@@ -504,7 +521,9 @@ public class Jugar {
                 cptBarco10[0].setBackground(new Color(datocolor[1][3], datocolor[1][2], datocolor[1][1], datocolor[1][0]));
                 computerbarcoundido[9] = true;
                 this.sonido.Sonido("crash.wav");
-                turnospc--;
+                if(turnospc > 1){
+                turnospc--;   
+                }   
             }
         }
     }

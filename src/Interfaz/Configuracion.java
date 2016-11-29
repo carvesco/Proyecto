@@ -177,7 +177,7 @@ public class Configuracion extends javax.swing.JDialog {
                                 .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 13, Short.MAX_VALUE))))
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -226,7 +226,7 @@ public class Configuracion extends javax.swing.JDialog {
                 .addComponent(jLabel14)
                 .addGap(18, 18, 18)
                 .addComponent(jButton1)
-                .addContainerGap(46, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Color", jPanel4);
@@ -389,7 +389,7 @@ public class Configuracion extends javax.swing.JDialog {
         jTextArea2.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
         jTextArea2.setLineWrap(true);
         jTextArea2.setRows(5);
-        jTextArea2.setText("Al comenzar, cada jugador posiciona sus barcos en el primer tablero, de forma secreta, invisible al oponente.\nCada quien ocupa, según sus preferencias, una misma cantidad de casillas, horizontal y/o verticalmente, las que representan sus naves. Ambos participantes deben ubicar igual el número de naves, por lo que es habitual, antes de comenzar, estipular de común acuerdo la cantidad y el tamaño de las naves que se posicionarán en el tablero. Así, por ejemplo, cinco casillas consecutivas conforman un portaaviones; tres, un buque, y una casilla aislada, una lancha, y los participantes podrían convenir, también a modo de ejemplo, en colocar, cada uno, dos portaaviones, tres buques y cinco lanchas.");
+        jTextArea2.setText("\"A salvo\" Ten cuidado! al iniciar el juego, el PC tiene más turnos que tú, así que deberás destruir los barcos del PC cuanto antes para disminuir sus turnos. Apresurate!");
         jTextArea2.setWrapStyleWord(true);
         jScrollPane2.setViewportView(jTextArea2);
 

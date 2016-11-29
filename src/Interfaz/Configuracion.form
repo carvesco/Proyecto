@@ -146,7 +146,7 @@
                                       <Component id="jButton7" min="-2" pref="90" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace min="0" pref="13" max="32767" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -207,7 +207,7 @@
                       <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="46" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -785,7 +785,7 @@
                         </Property>
                         <Property name="lineWrap" type="boolean" value="true"/>
                         <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="Al comenzar, cada jugador posiciona sus barcos en el primer tablero, de forma secreta, invisible al oponente.&#xa;Cada quien ocupa, seg&#xfa;n sus preferencias, una misma cantidad de casillas, horizontal y/o verticalmente, las que representan sus naves. Ambos participantes deben ubicar igual el n&#xfa;mero de naves, por lo que es habitual, antes de comenzar, estipular de com&#xfa;n acuerdo la cantidad y el tama&#xf1;o de las naves que se posicionar&#xe1;n en el tablero. As&#xed;, por ejemplo, cinco casillas consecutivas conforman un portaaviones; tres, un buque, y una casilla aislada, una lancha, y los participantes podr&#xed;an convenir, tambi&#xe9;n a modo de ejemplo, en colocar, cada uno, dos portaaviones, tres buques y cinco lanchas."/>
+                        <Property name="text" type="java.lang.String" value="&quot;A salvo&quot; Ten cuidado! al iniciar el juego, el PC tiene m&#xe1;s turnos que t&#xfa;, as&#xed; que deber&#xe1;s destruir los barcos del PC cuanto antes para disminuir sus turnos. Apresurate!"/>
                         <Property name="wrapStyleWord" type="boolean" value="true"/>
                       </Properties>
                     </Component>
